@@ -1,0 +1,27 @@
+{
+	"ts-node": {
+		"compilerOptions": {
+			"module": "node16",
+			"target": "es2022"
+		},
+	},
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "es2020",
+		"strict": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"allowJs": true,
+		// "checkJs": true,
+		"moduleResolution": "node",
+		"outDir": "./dist",
+		"rootDir": "./src",
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.js"
+	],
+	"exclude": [
+		"node_modules/*"
+	]
+}
