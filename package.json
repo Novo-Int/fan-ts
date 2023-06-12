@@ -1,0 +1,21 @@
+{
+	"name": "ts-node-test",
+	"version": "1.0.0",
+	"description": "A sample project to test ts-node",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "tsc",
+		"js": "ts-node ./dist/main.js",
+		"ts": "ts-node ./src/main.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ts-loader": "^9.4.2",
+		"typescript": "^5.0.4"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.1"
+	}
+}
